@@ -4,7 +4,4 @@ Welcome to the official sitemap repository for **Cordova Courier**. This reposit
 
 ## 🌐 Hosted Sitemap URL
 
-Once GitHub Pages is enabled, your sitemap will be publicly accessible at:
-
-# sitemap
-sitemap.xml file for cordovacourier.com
+Once GitHub Pages is enabled, your sitemap will be publicly accessible at: 
