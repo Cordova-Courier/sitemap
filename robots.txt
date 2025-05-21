@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/
+Allow: /
+
+Sitemap: https://sitemap.cordovacourier.com/sitemap_index.xml
