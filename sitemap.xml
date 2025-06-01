@@ -1,2 +1,23 @@
-<?xml version='1.0' encoding='utf-8'?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://sitemap.cordovacourier.com/sitemap-cities.xml</loc><lastmod>2025-05-21</lastmod></sitemap><sitemap><loc>https://sitemap.cordovacourier.com/sitemap-services.xml</loc><lastmod>2025-05-21</lastmod></sitemap><sitemap><loc>https://sitemap.cordovacourier.com/sitemap-airports.xml</loc><lastmod>2025-05-21</lastmod></sitemap><sitemap><loc>https://sitemap.cordovacourier.com/sitemap-about.xml</loc><lastmod>2025-05-21</lastmod></sitemap></sitemapindex>
+<?xml version="1.0" encoding="utf-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://sitemap.cordovacourier.com/sitemap-cities.xml</loc>
+    <lastmod>2025-05-21</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.cordovacourier.com/sitemap-services.xml</loc>
+    <lastmod>2025-05-21</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.cordovacourier.com/sitemap-airports.xml</loc>
+    <lastmod>2025-05-21</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.cordovacourier.com/sitemap-about.xml</loc>
+    <lastmod>2025-05-21</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://sitemap.cordovacourier.com/sitemap-blog.xml</loc>
+    <lastmod>2025-05-31</lastmod>
+  </sitemap>
+</sitemapindex>
