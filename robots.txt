@@ -1,13 +1,11 @@
-# Cordova Courier LLC - robots.txt
-# Allow all major search + AI crawlers to access public content
-
 # robots.txt for Cordova Courier Global
 
 # Standard crawlers
 User-agent: *
-Disallow: /misc/
 Allow: /
-Allow: /images/
+Disallow: /misc/
+Allow: /llms.txt
+Allow: /llms-full.txt
 
 # OpenAI / ChatGPT
 User-agent: GPTBot
@@ -59,9 +57,5 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-# LLM-specific files
-User-agent: *
-Allow: /llms.txt
-Allow: /llms-full.txt
-
 Sitemap: https://www.cordovacourier.com/sitemap.xml
+
