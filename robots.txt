@@ -1,11 +1,67 @@
 # Cordova Courier LLC - robots.txt
 # Allow all major search + AI crawlers to access public content
 
+# robots.txt for Cordova Courier Global
+
+# Standard crawlers
 User-agent: *
+Disallow: /misc/
+Allow: /
+Allow: /images/
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
 Allow: /
 
-# Sitemaps
-Sitemap: https://www.cordovacourier.com/sitemap.xml
+# OpenAI content crawler
+User-agent: OAI-SearchBot
+Allow: /
 
-# Note for AI / LLM crawlers:
-# See https://www.cordovacourier.com/llms.txt for AI-specific policies.
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI (Gemini, SGE, Bard)
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Apple
+User-agent: Applebot-Extended
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (trains most open-source LLMs)
+User-agent: CCBot
+Allow: /
+
+# Bytedance / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Amazon Alexa
+User-agent: Amazonbot
+Allow: /
+
+# LLM-specific files
+User-agent: *
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+Sitemap: https://www.cordovacourier.com/sitemap.xml
